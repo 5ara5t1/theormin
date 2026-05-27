@@ -27,3 +27,6 @@ Thumbs.db
 # Generated, but checked into repo intentionally — do NOT ignore:
 # - README.md (regenerated, but committed so GitHub renders it)
 # - images/*.svg (regenerated, but committed for README rendering)
+
+# Don't allow Obsidian to treat the repo root as a vault
+/.obsidian/
