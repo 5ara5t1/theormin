@@ -21,6 +21,30 @@ The curriculum is a work in progress and shall be adjusted and adapted as time g
 | Estimated baseline completion | computing… (needs ≥4 weeks of data) |
 <!-- END auto:status -->
 
+## Todo
+
+<!-- BEGIN auto:todo -->
+**This week**
+
+- [ ] Tao Analysis I §2.1–2.3 (Peano axioms + addition + multiplication)
+- [ ] Tao Ch. 2 summary
+- [ ] First batch of Demidovich problems (~10)
+- [ ] Strang Ch. 1–2 + MIT 18.06 Lectures 1–6
+- [ ] Reprove a theorem from memory (Mon end-of-week)
+- [ ] Scan paper notebook to PDF for `vault/05-derivations/week-01/`
+
+**Soon**
+
+- [ ] Acquire Hirsch-Smale-Devaney before Week 4–5
+- [ ] Find a study partner
+
+**Eventually**
+
+- [ ] Pick a subfield for research-level depth (Phase 4 or later)
+<!-- END auto:todo -->
+
+Edit at [`vault/00-meta/todo.md`](vault/00-meta/todo.md). Unchecked items here, completed items stay in the source file.
+
 ## Progress
 
 ### Phases (baseline + Phase 6)

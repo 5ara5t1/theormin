@@ -21,6 +21,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
+VAULT = ROOT / "vault"
 README = ROOT / "README.md"
 BAR_WIDTH = 20
 
@@ -241,6 +242,47 @@ def section_recent(books, problems, theorems) -> str:
     return "\n".join(items)
 
 
+def section_todo() -> str:
+    """Pull unchecked items from vault/00-meta/todo.md, grouped by ## subheading."""
+    path = VAULT / "00-meta" / "todo.md"
+    if not path.exists():
+        return "_No todo file yet. Create `vault/00-meta/todo.md` with `- [ ]` items._"
+    text = path.read_text()
+    # Skip frontmatter
+    if text.startswith("---\n"):
+        end = text.find("\n---", 4)
+        if end > 0:
+            text = text[end + 4:]
+    sections: list[tuple[str, list[str]]] = []
+    current = None
+    items: list[str] = []
+    for line in text.splitlines():
+        stripped = line.strip()
+        # ## subheading marks a new section. Skip h1 (#) and h3+ (###).
+        if re.match(r"^##\s+", stripped) and not stripped.startswith("###"):
+            if current is not None and items:
+                sections.append((current, items))
+            current = stripped.lstrip("#").strip()
+            items = []
+            continue
+        m = re.match(r"^\s*-\s*\[\s*\]\s*(.+)$", line)
+        if m and current is not None:
+            items.append(m.group(1).strip())
+    if current is not None and items:
+        sections.append((current, items))
+    # Drop a "Done" section if it somehow has unchecked items (shouldn't happen).
+    sections = [(h, it) for h, it in sections if h.lower() != "done"]
+    if not sections:
+        return "_No open items. Add some to `vault/00-meta/todo.md`._"
+    out = []
+    for heading, todos in sections:
+        out.append(f"**{heading}**\n")
+        for t in todos:
+            out.append(f"- [ ] {t}")
+        out.append("")
+    return "\n".join(out).strip()
+
+
 def section_shelf(books) -> str:
     lines = ["| Book | Status | Progress |", "|------|--------|----------|"]
     # Only show in_progress and completed; cap at 12 rows for legibility
@@ -305,6 +347,7 @@ def main() -> int:
     replacements = {
         "headline": section_headline(cfg, books, problems, sessions, today),
         "status": section_status(cfg, books, problems, sessions, theorems, today),
+        "todo": section_todo(),
         "phases": section_phases(cfg, books),
         "checkpoints": section_checkpoints(cfg, books, problems),
         "subjects": section_subjects(cfg, problems),
