@@ -1,3 +1,7 @@
 date,hours,subject,activity,notes
+<<<<<<< HEAD
 2026-05-26,0.5,meta,Repo + vault infrastructure setup,vault/01-weeks/week-01.md
 2026-05-26,0.3,real_analysis,Tao Analysis I Ch. 1 read,vault/01-weeks/week-01.md
+=======
+2026-05-26,0.5,meta,Repo + vault infrastructure setup,vault/01-weeks/2026-05-26-setup.md
+>>>>>>> refs/remotes/origin/main

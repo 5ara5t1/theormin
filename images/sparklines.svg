@@ -6,7 +6,11 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<<<<<<< HEAD
     <dc:date>2026-05-27T02:07:37.592917</dc:date>
+=======
+    <dc:date>2026-05-27T01:44:54.848114</dc:date>
+>>>>>>> refs/remotes/origin/main
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -43,7 +47,11 @@ L 129.405796 112.478437
 L 129.405796 112.478437 
 L 90.265625 112.478437 
 z
+<<<<<<< HEAD
 " clip-path="url(#pbceb96e34b)" style="fill: #3b82f6"/>
+=======
+" clip-path="url(#p4ce97b42ea)" style="fill: #3b82f6"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_4">
     <path d="M 146.180155 112.478437 
@@ -51,7 +59,11 @@ L 185.320326 112.478437
 L 185.320326 112.478437 
 L 146.180155 112.478437 
 z
+<<<<<<< HEAD
 " clip-path="url(#pbceb96e34b)" style="fill: #3b82f6"/>
+=======
+" clip-path="url(#p4ce97b42ea)" style="fill: #3b82f6"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_5">
     <path d="M 202.094685 112.478437 
@@ -59,7 +71,11 @@ L 241.234856 112.478437
 L 241.234856 112.478437 
 L 202.094685 112.478437 
 z
+<<<<<<< HEAD
 " clip-path="url(#pbceb96e34b)" style="fill: #3b82f6"/>
+=======
+" clip-path="url(#p4ce97b42ea)" style="fill: #3b82f6"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_6">
     <path d="M 258.009215 112.478437 
@@ -67,7 +83,11 @@ L 297.149386 112.478437
 L 297.149386 112.478437 
 L 258.009215 112.478437 
 z
+<<<<<<< HEAD
 " clip-path="url(#pbceb96e34b)" style="fill: #3b82f6"/>
+=======
+" clip-path="url(#p4ce97b42ea)" style="fill: #3b82f6"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_7">
     <path d="M 313.923745 112.478437 
@@ -75,7 +95,11 @@ L 353.063916 112.478437
 L 353.063916 112.478437 
 L 313.923745 112.478437 
 z
+<<<<<<< HEAD
 " clip-path="url(#pbceb96e34b)" style="fill: #3b82f6"/>
+=======
+" clip-path="url(#p4ce97b42ea)" style="fill: #3b82f6"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_8">
     <path d="M 369.838275 112.478437 
@@ -83,7 +107,11 @@ L 408.978446 112.478437
 L 408.978446 112.478437 
 L 369.838275 112.478437 
 z
+<<<<<<< HEAD
 " clip-path="url(#pbceb96e34b)" style="fill: #3b82f6"/>
+=======
+" clip-path="url(#p4ce97b42ea)" style="fill: #3b82f6"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_9">
     <path d="M 425.752804 112.478437 
@@ -91,7 +119,11 @@ L 464.892975 112.478437
 L 464.892975 112.478437 
 L 425.752804 112.478437 
 z
+<<<<<<< HEAD
 " clip-path="url(#pbceb96e34b)" style="fill: #3b82f6"/>
+=======
+" clip-path="url(#p4ce97b42ea)" style="fill: #3b82f6"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_10">
     <path d="M 481.667334 112.478437 
@@ -99,7 +131,11 @@ L 520.807505 112.478437
 L 520.807505 112.478437 
 L 481.667334 112.478437 
 z
+<<<<<<< HEAD
 " clip-path="url(#pbceb96e34b)" style="fill: #3b82f6"/>
+=======
+" clip-path="url(#p4ce97b42ea)" style="fill: #3b82f6"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_11">
     <path d="M 537.581864 112.478437 
@@ -107,7 +143,11 @@ L 576.722035 112.478437
 L 576.722035 112.478437 
 L 537.581864 112.478437 
 z
+<<<<<<< HEAD
 " clip-path="url(#pbceb96e34b)" style="fill: #3b82f6"/>
+=======
+" clip-path="url(#p4ce97b42ea)" style="fill: #3b82f6"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_12">
     <path d="M 593.496394 112.478437 
@@ -115,7 +155,11 @@ L 632.636565 112.478437
 L 632.636565 112.478437 
 L 593.496394 112.478437 
 z
+<<<<<<< HEAD
 " clip-path="url(#pbceb96e34b)" style="fill: #3b82f6"/>
+=======
+" clip-path="url(#p4ce97b42ea)" style="fill: #3b82f6"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_13">
     <path d="M 649.410924 112.478437 
@@ -123,7 +167,11 @@ L 688.551095 112.478437
 L 688.551095 112.478437 
 L 649.410924 112.478437 
 z
+<<<<<<< HEAD
 " clip-path="url(#pbceb96e34b)" style="fill: #3b82f6"/>
+=======
+" clip-path="url(#p4ce97b42ea)" style="fill: #3b82f6"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_14">
     <path d="M 705.325454 112.478437 
@@ -131,95 +179,151 @@ L 744.465625 112.478437
 L 744.465625 23.25939 
 L 705.325454 23.25939 
 z
+<<<<<<< HEAD
 " clip-path="url(#pbceb96e34b)" style="fill: #3b82f6"/>
+=======
+" clip-path="url(#p4ce97b42ea)" style="fill: #3b82f6"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
       <defs>
+<<<<<<< HEAD
        <path id="md217fa9603" d="M 0 0 
+=======
+       <path id="maf088ad38b" d="M 0 0 
+>>>>>>> refs/remotes/origin/main
 L 0 3.5 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="109.83571" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="109.83571" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="165.75024" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="165.75024" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="221.66477" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="221.66477" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
     </g>
     <g id="xtick_4">
      <g id="line2d_4">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="277.5793" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="277.5793" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
     </g>
     <g id="xtick_5">
      <g id="line2d_5">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="333.49383" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="333.49383" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
     </g>
     <g id="xtick_6">
      <g id="line2d_6">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="389.40836" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="389.40836" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
     </g>
     <g id="xtick_7">
      <g id="line2d_7">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="445.32289" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="445.32289" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
     </g>
     <g id="xtick_8">
      <g id="line2d_8">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="501.23742" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="501.23742" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
     </g>
     <g id="xtick_9">
      <g id="line2d_9">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="557.15195" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="557.15195" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
     </g>
     <g id="xtick_10">
      <g id="line2d_10">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="613.06648" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="613.06648" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
     </g>
     <g id="xtick_11">
      <g id="line2d_11">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="668.98101" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="668.98101" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
     </g>
     <g id="xtick_12">
      <g id="line2d_12">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="724.89554" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="724.89554" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
     </g>
@@ -229,21 +333,38 @@ L 0 3.5
      <g id="line2d_13">
       <path d="M 57.555625 112.478437 
 L 777.175625 112.478437 
+<<<<<<< HEAD
 " clip-path="url(#pbceb96e34b)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-opacity: 0.4; stroke-width: 0.8"/>
      </g>
      <g id="line2d_14">
       <defs>
        <path id="me1a02a15ec" d="M 0 0 
+=======
+" clip-path="url(#p4ce97b42ea)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_14">
+      <defs>
+       <path id="m7f0ff418a5" d="M 0 0 
+>>>>>>> refs/remotes/origin/main
 L -3.5 0 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
+<<<<<<< HEAD
        <use xlink:href="#me1a02a15ec" x="57.555625" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
       <!-- 0.00 -->
       <g transform="translate(28.29 116.277656) scale(0.1 -0.1)">
+=======
+       <use xlink:href="#m7f0ff418a5" x="57.555625" y="112.478437" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <!-- 0.0 -->
+      <g transform="translate(34.6525 116.277656) scale(0.1 -0.1)">
+>>>>>>> refs/remotes/origin/main
        <defs>
         <path id="DejaVuSans-30" d="M 2034 4250 
 Q 1547 4250 1301 3770 
@@ -273,6 +394,7 @@ L 684 0
 L 684 794 
 z
 " transform="scale(0.015625)"/>
+<<<<<<< HEAD
        </defs>
        <use xlink:href="#DejaVuSans-30"/>
        <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
@@ -350,11 +472,64 @@ z
        <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
        <use xlink:href="#DejaVuSans-32" transform="translate(95.410156 0)"/>
        <use xlink:href="#DejaVuSans-35" transform="translate(159.033203 0)"/>
+=======
+       </defs>
+       <use xlink:href="#DejaVuSans-30"/>
+       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
+       <use xlink:href="#DejaVuSans-30" transform="translate(95.410156 0)"/>
+      </g>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_15">
+      <path d="M 57.555625 76.790818 
+L 777.175625 76.790818 
+" clip-path="url(#p4ce97b42ea)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_16">
+      <g>
+       <use xlink:href="#m7f0ff418a5" x="57.555625" y="76.790818" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <!-- 0.2 -->
+      <g transform="translate(34.6525 80.590037) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-32" d="M 1228 531 
+L 3431 531 
+L 3431 0 
+L 469 0 
+L 469 531 
+Q 828 903 1448 1529 
+Q 2069 2156 2228 2338 
+Q 2531 2678 2651 2914 
+Q 2772 3150 2772 3378 
+Q 2772 3750 2511 3984 
+Q 2250 4219 1831 4219 
+Q 1534 4219 1204 4116 
+Q 875 4013 500 3803 
+L 500 4441 
+Q 881 4594 1212 4672 
+Q 1544 4750 1819 4750 
+Q 2544 4750 2975 4387 
+Q 3406 4025 3406 3419 
+Q 3406 3131 3298 2873 
+Q 3191 2616 2906 2266 
+Q 2828 2175 2409 1742 
+Q 1991 1309 1228 531 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-30"/>
+       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
+       <use xlink:href="#DejaVuSans-32" transform="translate(95.410156 0)"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
     </g>
     <g id="ytick_3">
      <g id="line2d_17">
+<<<<<<< HEAD
       <path d="M 57.555625 56.716533 
 L 777.175625 56.716533 
 " clip-path="url(#pbceb96e34b)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-opacity: 0.4; stroke-width: 0.8"/>
@@ -404,12 +579,54 @@ z
        <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
        <use xlink:href="#DejaVuSans-37" transform="translate(95.410156 0)"/>
        <use xlink:href="#DejaVuSans-35" transform="translate(159.033203 0)"/>
+=======
+      <path d="M 57.555625 41.103199 
+L 777.175625 41.103199 
+" clip-path="url(#p4ce97b42ea)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-opacity: 0.4; stroke-width: 0.8"/>
+     </g>
+     <g id="line2d_18">
+      <g>
+       <use xlink:href="#m7f0ff418a5" x="57.555625" y="41.103199" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <!-- 0.4 -->
+      <g transform="translate(34.6525 44.902418) scale(0.1 -0.1)">
+       <defs>
+        <path id="DejaVuSans-34" d="M 2419 4116 
+L 825 1625 
+L 2419 1625 
+L 2419 4116 
+z
+M 2253 4666 
+L 3047 4666 
+L 3047 1625 
+L 3713 1625 
+L 3713 1100 
+L 3047 1100 
+L 3047 0 
+L 2419 0 
+L 2419 1100 
+L 313 1100 
+L 313 1709 
+L 2253 4666 
+z
+" transform="scale(0.015625)"/>
+       </defs>
+       <use xlink:href="#DejaVuSans-30"/>
+       <use xlink:href="#DejaVuSans-2e" transform="translate(63.623047 0)"/>
+       <use xlink:href="#DejaVuSans-34" transform="translate(95.410156 0)"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
     </g>
     <g id="text_5">
      <!-- hours / week -->
+<<<<<<< HEAD
      <g transform="translate(22.418281 94.489766) rotate(-90) scale(0.09 -0.09)">
+=======
+     <g transform="translate(28.780781 94.489766) rotate(-90) scale(0.09 -0.09)">
+>>>>>>> refs/remotes/origin/main
       <defs>
        <path id="DejaVuSans-68" d="M 3513 2113 
 L 3513 0 
@@ -602,7 +819,11 @@ z
    </g>
    <g id="patch_15">
     <path d="M 57.555625 112.478437 
+<<<<<<< HEAD
 L 57.555625 18.798437 
+=======
+L 57.555625 18.798438 
+>>>>>>> refs/remotes/origin/main
 " style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="patch_16">
@@ -723,7 +944,11 @@ L 129.405796 176.238437
 L 129.405796 176.238437 
 L 90.265625 176.238437 
 z
+<<<<<<< HEAD
 " clip-path="url(#p38b4341945)" style="fill: #10b981"/>
+=======
+" clip-path="url(#p4b41a62094)" style="fill: #10b981"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_19">
     <path d="M 146.180155 176.238437 
@@ -731,7 +956,11 @@ L 185.320326 176.238437
 L 185.320326 176.238437 
 L 146.180155 176.238437 
 z
+<<<<<<< HEAD
 " clip-path="url(#p38b4341945)" style="fill: #10b981"/>
+=======
+" clip-path="url(#p4b41a62094)" style="fill: #10b981"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_20">
     <path d="M 202.094685 176.238437 
@@ -739,7 +968,11 @@ L 241.234856 176.238437
 L 241.234856 176.238437 
 L 202.094685 176.238437 
 z
+<<<<<<< HEAD
 " clip-path="url(#p38b4341945)" style="fill: #10b981"/>
+=======
+" clip-path="url(#p4b41a62094)" style="fill: #10b981"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_21">
     <path d="M 258.009215 176.238437 
@@ -747,7 +980,11 @@ L 297.149386 176.238437
 L 297.149386 176.238437 
 L 258.009215 176.238437 
 z
+<<<<<<< HEAD
 " clip-path="url(#p38b4341945)" style="fill: #10b981"/>
+=======
+" clip-path="url(#p4b41a62094)" style="fill: #10b981"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_22">
     <path d="M 313.923745 176.238437 
@@ -755,7 +992,11 @@ L 353.063916 176.238437
 L 353.063916 176.238437 
 L 313.923745 176.238437 
 z
+<<<<<<< HEAD
 " clip-path="url(#p38b4341945)" style="fill: #10b981"/>
+=======
+" clip-path="url(#p4b41a62094)" style="fill: #10b981"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_23">
     <path d="M 369.838275 176.238437 
@@ -763,7 +1004,11 @@ L 408.978446 176.238437
 L 408.978446 176.238437 
 L 369.838275 176.238437 
 z
+<<<<<<< HEAD
 " clip-path="url(#p38b4341945)" style="fill: #10b981"/>
+=======
+" clip-path="url(#p4b41a62094)" style="fill: #10b981"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_24">
     <path d="M 425.752804 176.238437 
@@ -771,7 +1016,11 @@ L 464.892975 176.238437
 L 464.892975 176.238437 
 L 425.752804 176.238437 
 z
+<<<<<<< HEAD
 " clip-path="url(#p38b4341945)" style="fill: #10b981"/>
+=======
+" clip-path="url(#p4b41a62094)" style="fill: #10b981"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_25">
     <path d="M 481.667334 176.238437 
@@ -779,7 +1028,11 @@ L 520.807505 176.238437
 L 520.807505 176.238437 
 L 481.667334 176.238437 
 z
+<<<<<<< HEAD
 " clip-path="url(#p38b4341945)" style="fill: #10b981"/>
+=======
+" clip-path="url(#p4b41a62094)" style="fill: #10b981"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_26">
     <path d="M 537.581864 176.238437 
@@ -787,7 +1040,11 @@ L 576.722035 176.238437
 L 576.722035 176.238437 
 L 537.581864 176.238437 
 z
+<<<<<<< HEAD
 " clip-path="url(#p38b4341945)" style="fill: #10b981"/>
+=======
+" clip-path="url(#p4b41a62094)" style="fill: #10b981"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_27">
     <path d="M 593.496394 176.238437 
@@ -795,7 +1052,11 @@ L 632.636565 176.238437
 L 632.636565 176.238437 
 L 593.496394 176.238437 
 z
+<<<<<<< HEAD
 " clip-path="url(#p38b4341945)" style="fill: #10b981"/>
+=======
+" clip-path="url(#p4b41a62094)" style="fill: #10b981"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_28">
     <path d="M 649.410924 176.238437 
@@ -803,7 +1064,11 @@ L 688.551095 176.238437
 L 688.551095 176.238437 
 L 649.410924 176.238437 
 z
+<<<<<<< HEAD
 " clip-path="url(#p38b4341945)" style="fill: #10b981"/>
+=======
+" clip-path="url(#p4b41a62094)" style="fill: #10b981"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="patch_29">
     <path d="M 705.325454 176.238437 
@@ -811,13 +1076,21 @@ L 744.465625 176.238437
 L 744.465625 176.238437 
 L 705.325454 176.238437 
 z
+<<<<<<< HEAD
 " clip-path="url(#p38b4341945)" style="fill: #10b981"/>
+=======
+" clip-path="url(#p4b41a62094)" style="fill: #10b981"/>
+>>>>>>> refs/remotes/origin/main
    </g>
    <g id="matplotlib.axis_3">
     <g id="xtick_13">
      <g id="line2d_21">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="109.83571" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="109.83571" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_7">
@@ -905,12 +1178,43 @@ z
     <g id="xtick_14">
      <g id="line2d_22">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="165.75024" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="165.75024" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_8">
       <!-- 3/15 -->
       <g transform="translate(156.76774 236.157187) scale(0.08 -0.08)">
+       <defs>
+        <path id="DejaVuSans-35" d="M 691 4666 
+L 3169 4666 
+L 3169 4134 
+L 1269 4134 
+L 1269 2991 
+Q 1406 3038 1543 3061 
+Q 1681 3084 1819 3084 
+Q 2600 3084 3056 2656 
+Q 3513 2228 3513 1497 
+Q 3513 744 3044 326 
+Q 2575 -91 1722 -91 
+Q 1428 -91 1123 -41 
+Q 819 9 494 109 
+L 494 744 
+Q 775 591 1075 516 
+Q 1375 441 1709 441 
+Q 2250 441 2565 725 
+Q 2881 1009 2881 1497 
+Q 2881 1984 2565 2268 
+Q 2250 2553 1709 2553 
+Q 1456 2553 1204 2497 
+Q 953 2441 691 2322 
+L 691 4666 
+z
+" transform="scale(0.015625)"/>
+       </defs>
        <use xlink:href="#DejaVuSans-33"/>
        <use xlink:href="#DejaVuSans-2f" transform="translate(63.623047 0)"/>
        <use xlink:href="#DejaVuSans-31" transform="translate(97.314453 0)"/>
@@ -921,7 +1225,11 @@ z
     <g id="xtick_15">
      <g id="line2d_23">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="221.66477" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="221.66477" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_9">
@@ -937,7 +1245,11 @@ z
     <g id="xtick_16">
      <g id="line2d_24">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="277.5793" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="277.5793" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_10">
@@ -985,33 +1297,16 @@ z
     <g id="xtick_17">
      <g id="line2d_25">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="333.49383" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="333.49383" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_11">
       <!-- 4/5 -->
       <g transform="translate(327.05633 236.157187) scale(0.08 -0.08)">
-       <defs>
-        <path id="DejaVuSans-34" d="M 2419 4116 
-L 825 1625 
-L 2419 1625 
-L 2419 4116 
-z
-M 2253 4666 
-L 3047 4666 
-L 3047 1625 
-L 3713 1625 
-L 3713 1100 
-L 3047 1100 
-L 3047 0 
-L 2419 0 
-L 2419 1100 
-L 313 1100 
-L 313 1709 
-L 2253 4666 
-z
-" transform="scale(0.015625)"/>
-       </defs>
        <use xlink:href="#DejaVuSans-34"/>
        <use xlink:href="#DejaVuSans-2f" transform="translate(63.623047 0)"/>
        <use xlink:href="#DejaVuSans-35" transform="translate(97.314453 0)"/>
@@ -1021,7 +1316,11 @@ z
     <g id="xtick_18">
      <g id="line2d_26">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="389.40836" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="389.40836" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_12">
@@ -1037,7 +1336,11 @@ z
     <g id="xtick_19">
      <g id="line2d_27">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="445.32289" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="445.32289" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_13">
@@ -1053,7 +1356,11 @@ z
     <g id="xtick_20">
      <g id="line2d_28">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="501.23742" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="501.23742" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_14">
@@ -1101,7 +1408,11 @@ z
     <g id="xtick_21">
      <g id="line2d_29">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="557.15195" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="557.15195" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_15">
@@ -1116,7 +1427,11 @@ z
     <g id="xtick_22">
      <g id="line2d_30">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="613.06648" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="613.06648" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_16">
@@ -1132,7 +1447,11 @@ z
     <g id="xtick_23">
      <g id="line2d_31">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="668.98101" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="668.98101" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_17">
@@ -1148,7 +1467,11 @@ z
     <g id="xtick_24">
      <g id="line2d_32">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#md217fa9603" x="724.89554" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#maf088ad38b" x="724.89554" y="223.078437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_18">
@@ -1163,15 +1486,27 @@ z
     </g>
    </g>
    <g id="matplotlib.axis_4">
+<<<<<<< HEAD
     <g id="ytick_5">
      <g id="line2d_33">
       <path d="M 57.555625 218.820256 
 L 777.175625 218.820256 
 " clip-path="url(#p38b4341945)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-opacity: 0.4; stroke-width: 0.8"/>
+=======
+    <g id="ytick_4">
+     <g id="line2d_31">
+      <path d="M 57.555625 218.820256 
+L 777.175625 218.820256 
+" clip-path="url(#p4b41a62094)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-opacity: 0.4; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
      </g>
      <g id="line2d_34">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#me1a02a15ec" x="57.555625" y="218.820256" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#m7f0ff418a5" x="57.555625" y="218.820256" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_19">
@@ -1194,15 +1529,27 @@ z
       </g>
      </g>
     </g>
+<<<<<<< HEAD
     <g id="ytick_6">
      <g id="line2d_35">
       <path d="M 57.555625 176.238437 
 L 777.175625 176.238437 
 " clip-path="url(#p38b4341945)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-opacity: 0.4; stroke-width: 0.8"/>
+=======
+    <g id="ytick_5">
+     <g id="line2d_33">
+      <path d="M 57.555625 176.238437 
+L 777.175625 176.238437 
+" clip-path="url(#p4b41a62094)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-opacity: 0.4; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
      </g>
      <g id="line2d_36">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#me1a02a15ec" x="57.555625" y="176.238437" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#m7f0ff418a5" x="57.555625" y="176.238437" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_20">
@@ -1215,15 +1562,27 @@ L 777.175625 176.238437
       </g>
      </g>
     </g>
+<<<<<<< HEAD
     <g id="ytick_7">
      <g id="line2d_37">
       <path d="M 57.555625 133.656619 
 L 777.175625 133.656619 
 " clip-path="url(#p38b4341945)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-opacity: 0.4; stroke-width: 0.8"/>
+=======
+    <g id="ytick_6">
+     <g id="line2d_35">
+      <path d="M 57.555625 133.656619 
+L 777.175625 133.656619 
+" clip-path="url(#p4b41a62094)" style="fill: none; stroke-dasharray: 0.8,1.32; stroke-dashoffset: 0; stroke: #b0b0b0; stroke-opacity: 0.4; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
      </g>
      <g id="line2d_38">
       <g>
+<<<<<<< HEAD
        <use xlink:href="#me1a02a15ec" x="57.555625" y="133.656619" style="stroke: #000000; stroke-width: 0.8"/>
+=======
+       <use xlink:href="#m7f0ff418a5" x="57.555625" y="133.656619" style="stroke: #000000; stroke-width: 0.8"/>
+>>>>>>> refs/remotes/origin/main
       </g>
      </g>
      <g id="text_21">
@@ -1361,10 +1720,17 @@ L 777.175625 223.078437
   </g>
  </g>
  <defs>
+<<<<<<< HEAD
   <clipPath id="pbceb96e34b">
    <rect x="57.555625" y="18.798438" width="719.62" height="93.68"/>
   </clipPath>
   <clipPath id="p38b4341945">
+=======
+  <clipPath id="p4ce97b42ea">
+   <rect x="57.555625" y="18.798438" width="719.62" height="93.68"/>
+  </clipPath>
+  <clipPath id="p4b41a62094">
+>>>>>>> refs/remotes/origin/main
    <rect x="57.555625" y="129.398438" width="719.62" height="93.68"/>
   </clipPath>
  </defs>
