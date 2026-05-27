@@ -43,6 +43,33 @@ def load_csv(path: Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
+def apply_auto_chapters_done(books: list[dict], summaries: list[dict]) -> list[dict]:
+    """Override chapters_done in books from the count of completed chapter summaries.
+
+    The number in data/books.yaml becomes a fallback for books without any
+    summary entries yet. Anything with at least one summary row whose status
+    is 'completed' gets its chapters_done recomputed from the vault.
+    """
+    counts: dict[str, int] = defaultdict(int)
+    seen_books: set[str] = set()
+    for s in summaries:
+        book = (s.get("book") or "").strip()
+        if not book:
+            continue
+        seen_books.add(book)
+        status = (s.get("status") or "").strip().lower()
+        if status == "completed":
+            counts[book] += 1
+    for b in books:
+        if b["id"] in seen_books:
+            b["chapters_done"] = counts.get(b["id"], 0)
+            # If the book had no chapters done before but has at least one summary
+            # in progress, flip status to in_progress.
+            if b["chapters_done"] > 0 and b.get("status") == "not_started":
+                b["status"] = "in_progress"
+    return books
+
+
 # ---------- formatting helpers ----------
 
 
@@ -270,6 +297,8 @@ def main() -> int:
     problems = load_csv(DATA / "problems.csv")
     sessions = load_csv(DATA / "sessions.csv")
     theorems = load_csv(DATA / "theorems.csv")
+    summaries = load_csv(DATA / "summaries.csv")
+    books = apply_auto_chapters_done(books, summaries)
     today = dt.date.today()
 
     content = README.read_text()

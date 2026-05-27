@@ -27,7 +27,7 @@ The curriculum is a work in progress and shall be adjusted and adapted as time g
 
 <!-- BEGIN auto:phases -->
 ```
-Phase 1 — Mathematical foundation         ░░░░░░░░░░░░░░░░░░░░   0.0%
+Phase 1 — Mathematical foundation         ░░░░░░░░░░░░░░░░░░░░   1.7%
 Phase 2 — Classical mechanics + fields    ░░░░░░░░░░░░░░░░░░░░   0.0%
 Phase 3 — Quantum mechanics               ░░░░░░░░░░░░░░░░░░░░   0.0%
 Phase 4 — QED + stat phys + fluids        ░░░░░░░░░░░░░░░░░░░░   0.0%
@@ -90,7 +90,7 @@ QED / QFT                   0 / 600   ░░░░░░░░░░░░░░
 <!-- BEGIN auto:shelf -->
 | Book | Status | Progress |
 |------|--------|----------|
-| Tao, *Analysis I* | in progress | 0 / 13 chapters |
+| Tao, *Analysis I* | in progress | 1 / 13 chapters |
 | Zorich, *Mathematical Analysis vol 1* | in progress | 0 / 8 chapters |
 | Demidovich, *Problems in Mathematical Analysis* | in progress | 0 / 10 chapters |
 | Strang, *Introduction to Linear Algebra* | in progress | 0 / 11 chapters |
@@ -105,7 +105,7 @@ QED / QFT                   0 / 600   ░░░░░░░░░░░░░░
 ## How this repo works
 
 - **`vault/`** — Obsidian vault. Open `vault/` (not the repo root) in Obsidian. One file per week in `01-weeks/` holds the plan, sessions table, problems table, and reflection. Chapter summaries live in `02-summaries/`, theorem reproofs in `03-theorems/`, end-of-week PDF scans in `05-derivations/`. See [`vault/README.md`](vault/README.md) for the convention.
-- **`data/`** — machine-readable progress: `problems.csv`, `sessions.csv`, `theorems.csv`, plus `books.yaml` and `config.yaml`. Regenerated from the vault on every CI run.
+- **`data/`** — machine-readable progress: `problems.csv`, `sessions.csv`, `theorems.csv`, `summaries.csv`, plus `books.yaml` and `config.yaml`. The CSVs are regenerated from the vault on every CI run; `books.yaml` is hand-maintained metadata (titles, prereqs) with `chapters_done` auto-derived from completed chapter summaries.
 - **`scripts/`** — Python that walks the vault and rebuilds the dashboard. `extract_from_vault.py` parses the weekly tables, `gen_charts.py` renders the SVGs, `gen_readme.py` updates this file's auto-sections. Run all three via `./scripts/refresh.sh`.
 - **`.github/workflows/update-dashboard.yml`** — runs the scripts on push to main and weekly.
 - **`images/`** — generated charts.

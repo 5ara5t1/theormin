@@ -132,12 +132,13 @@ def parse_week_tables(text: str, source_path: str) -> tuple[list[dict], list[dic
     return sessions, problems
 
 
-def walk_vault() -> tuple[list[dict], list[dict], list[dict]]:
+def walk_vault() -> tuple[list[dict], list[dict], list[dict], list[dict]]:
     problems: list[dict] = []
     sessions: list[dict] = []
     theorems: list[dict] = []
+    summaries: list[dict] = []
     if not VAULT.exists():
-        return problems, sessions, theorems
+        return problems, sessions, theorems, summaries
 
     for md in VAULT.rglob("*.md"):
         if md.name.startswith("_"):
@@ -194,7 +195,20 @@ def walk_vault() -> tuple[list[dict], list[dict], list[dict]]:
             })
             continue
 
-    return problems, sessions, theorems
+        if kind == "summary":
+            summaries.append({
+                "book": fm.get("book", ""),
+                "chapter": fm.get("chapter", ""),
+                "status": fm.get("status", ""),
+                "date_started": fm.get("date_started", ""),
+                "date_completed": fm.get("date_completed", ""),
+                "hours": fm.get("hours", ""),
+                "problems_worked": fm.get("problems_worked", ""),
+                "notes_path": rel_path,
+            })
+            continue
+
+    return problems, sessions, theorems, summaries
 
 
 def write_csv(path: Path, rows: list[dict], cols: list[str]) -> None:
@@ -206,10 +220,11 @@ def write_csv(path: Path, rows: list[dict], cols: list[str]) -> None:
 
 
 def main() -> int:
-    problems, sessions, theorems = walk_vault()
+    problems, sessions, theorems, summaries = walk_vault()
     problems.sort(key=lambda r: (r.get("date") or "", r.get("id") or ""))
     sessions.sort(key=lambda r: (r.get("date") or "", r.get("activity") or ""))
     theorems.sort(key=lambda r: r.get("date") or "")
+    summaries.sort(key=lambda r: (r.get("book") or "", str(r.get("chapter") or "")))
     write_csv(
         DATA / "problems.csv", problems,
         ["id", "date", "book", "chapter", "problem_ref", "subject",
@@ -223,8 +238,14 @@ def main() -> int:
         DATA / "theorems.csv", theorems,
         ["date", "theorem", "book", "result", "time_minutes", "notes_path"],
     )
+    write_csv(
+        DATA / "summaries.csv", summaries,
+        ["book", "chapter", "status", "date_started", "date_completed",
+         "hours", "problems_worked", "notes_path"],
+    )
     print(f"Vault extracted: "
-          f"{len(problems)} problems, {len(sessions)} sessions, {len(theorems)} theorems")
+          f"{len(problems)} problems, {len(sessions)} sessions, "
+          f"{len(theorems)} theorems, {len(summaries)} summaries")
     return 0
 
 
