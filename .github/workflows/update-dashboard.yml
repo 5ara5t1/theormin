@@ -1,0 +1,55 @@
+name: Update dashboard
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "vault/**"
+      - "data/**"
+      - "scripts/**"
+      - ".github/workflows/update-dashboard.yml"
+  schedule:
+    # Every Monday 12:00 UTC — weekly refresh even if nothing was pushed.
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Extract data from vault
+        run: python scripts/extract_from_vault.py
+
+      - name: Regenerate charts
+        run: python scripts/gen_charts.py
+
+      - name: Regenerate README
+        run: python scripts/gen_readme.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md images/ data/
+          if git diff --cached --quiet; then
+            echo "No dashboard changes."
+          else
+            git commit -m "chore: refresh dashboard [skip ci]"
+            git push
+          fi

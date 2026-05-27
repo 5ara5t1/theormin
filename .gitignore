@@ -1,0 +1,29 @@
+# Obsidian — keep config, ignore workspace/user-specific state
+vault/.obsidian/workspace.json
+vault/.obsidian/workspace-mobile.json
+vault/.obsidian/workspaces.json
+vault/.obsidian/cache
+vault/.obsidian/graph.json
+vault/.trash/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.python-version
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Generated, but checked into repo intentionally — do NOT ignore:
+# - README.md (regenerated, but committed so GitHub renders it)
+# - images/*.svg (regenerated, but committed for README rendering)

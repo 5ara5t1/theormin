@@ -1,0 +1,81 @@
+# Top-level config consumed by scripts/gen_readme.py and gen_charts.py.
+
+start_date: 2026-05-26
+
+# Per-subject problem targets (sum = total problem target for the curriculum)
+problem_targets:
+  real_analysis: 500
+  linear_algebra: 300
+  ode: 400
+  complex_analysis: 200
+  calc_of_variations: 100
+  pde: 200
+  math_methods: 100
+  functional_analysis: 200
+  group_theory: 100
+  asymptotics: 100
+  probability: 100
+  numerical_methods: 100
+  general_physics: 2000
+  mechanics: 400
+  classical_fields: 300
+  quantum_mechanics: 1000
+  qed: 300
+  stat_phys: 400
+  fluid_mechanics: 200
+  elasticity: 150
+  continuous_em: 200
+  kinetics: 150
+  qft: 600
+  gr: 400
+  eft: 200
+  condensed_matter: 300
+
+# Phase chapter inventories (used for phase progress bars).
+# A chapter is "done" when chapters_done in books.yaml increments past its index.
+phase_chapter_totals:
+  1: 60   # analysis + linalg + ODE + complex + calc-of-var
+  2: 50   # PDE + tensor + L1 + L2 + general physics review
+  3: 40   # functional analysis + Lie + L3 + Sakurai + Shankar
+  4: 60   # L4 + L5 + L6 + Peskin + Kardar + Zinn-Justin
+  5: 50   # L7 + L8 + L9 + L10
+  6: 80   # Tong + Schwartz + Carroll + Wald + Altland-Simons + EFT notes
+
+# The Nine Checkpoints — what counts as passed
+checkpoints:
+  - id: 1
+    name: "Math I — real analysis, ODE"
+    requires_books: [tao-analysis-1, zorich-1, arnold-ode]
+    requires_problems: 800
+  - id: 2
+    name: "Math II — complex, tensor, PDE, special functions"
+    requires_books: [markushevich-1, vladimirov, frankel, gelfand-fomin]
+    requires_problems: 400
+  - id: 3
+    name: "Mechanics (L1)"
+    requires_books: [ll1]
+    requires_problems: 200
+  - id: 4
+    name: "Field Theory (L2) — SR, GR intro, classical E&M"
+    requires_books: [ll2]
+    requires_problems: 200
+  - id: 5
+    name: "Quantum Mechanics (L3)"
+    requires_books: [ll3, galitski]
+    requires_problems: 500
+  - id: 6
+    name: "Statistical Physics (L5)"
+    requires_books: [ll5]
+    requires_problems: 200
+  - id: 7
+    name: "Continuous Media (L6, L7)"
+    requires_books: [ll6, ll7]
+    requires_problems: 200
+  - id: 8
+    name: "Electrodynamics of Continuous Media (L8)"
+    requires_books: [ll8]
+    requires_problems: 150
+  - id: 9
+    name: "Quantum Electrodynamics (L4)"
+    requires_books: [ll4]
+    requires_problems: 150

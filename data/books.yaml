@@ -1,0 +1,427 @@
+# Books on the curriculum shelf.
+# status: not_started | in_progress | completed | reference_only
+# Update progress_chapters as you finish each chapter.
+
+books:
+  # === Phase 1: Math foundation ===
+  - id: tao-analysis-1
+    title: "Analysis I"
+    author: "Tao"
+    subject: real_analysis
+    phase: 1
+    role: primary
+    chapters_total: 13
+    chapters_done: 0
+    status: in_progress
+    started: 2026-05-26
+
+  - id: zorich-1
+    title: "Mathematical Analysis vol 1"
+    author: "Zorich"
+    subject: real_analysis
+    phase: 1
+    role: primary
+    chapters_total: 8
+    chapters_done: 0
+    status: in_progress
+    started: 2026-05-26
+
+  - id: demidovich
+    title: "Problems in Mathematical Analysis"
+    author: "Demidovich"
+    subject: real_analysis
+    phase: 1
+    role: problems
+    chapters_total: 10
+    chapters_done: 0
+    status: in_progress
+    started: 2026-05-26
+    problems_target: 500
+
+  - id: strang-linalg
+    title: "Introduction to Linear Algebra"
+    author: "Strang"
+    subject: linear_algebra
+    phase: 1
+    role: primary
+    chapters_total: 11
+    chapters_done: 0
+    status: in_progress
+    started: 2026-05-26
+
+  - id: shilov
+    title: "Linear Algebra"
+    author: "Shilov"
+    subject: linear_algebra
+    phase: 1
+    role: depth
+    chapters_total: 10
+    chapters_done: 0
+    status: not_started
+
+  - id: axler
+    title: "Linear Algebra Done Right"
+    author: "Axler"
+    subject: linear_algebra
+    phase: 1
+    role: complement
+    chapters_total: 10
+    chapters_done: 0
+    status: not_started
+
+  - id: arnold-ode
+    title: "Ordinary Differential Equations"
+    author: "Arnold"
+    subject: ode
+    phase: 1
+    role: primary
+    chapters_total: 6
+    chapters_done: 0
+    status: not_started
+
+  - id: hsd
+    title: "Differential Equations, Dynamical Systems, and an Introduction to Chaos"
+    author: "Hirsch-Smale-Devaney"
+    subject: ode
+    phase: 1
+    role: scaffolding
+    chapters_total: 17
+    chapters_done: 0
+    status: not_started
+
+  - id: krasnov-ode
+    title: "Problems in ODEs"
+    author: "Krasnov, Kiselev, Makarenko"
+    subject: ode
+    phase: 1
+    role: problems
+    status: not_started
+
+  - id: markushevich-1
+    title: "Theory of Functions of a Complex Variable vol 1"
+    author: "Markushevich"
+    subject: complex_analysis
+    phase: 1
+    role: primary
+    chapters_total: 7
+    chapters_done: 0
+    status: not_started
+
+  - id: needham
+    title: "Visual Complex Analysis"
+    author: "Needham"
+    subject: complex_analysis
+    phase: 1
+    role: complement
+    chapters_total: 12
+    chapters_done: 0
+    status: not_started
+
+  - id: gelfand-fomin
+    title: "Calculus of Variations"
+    author: "Gelfand & Fomin"
+    subject: calc_of_variations
+    phase: 1
+    role: primary
+    chapters_total: 8
+    chapters_done: 0
+    status: not_started
+
+  # === Phase 2: PDE, diff geom, mechanics, fields ===
+  - id: vladimirov
+    title: "Equations of Mathematical Physics"
+    author: "Vladimirov"
+    subject: pde
+    phase: 2
+    role: primary
+    status: not_started
+
+  - id: frankel
+    title: "The Geometry of Physics"
+    author: "Frankel"
+    subject: differential_geometry
+    phase: 2
+    role: primary
+    status: not_started
+
+  - id: hassani
+    title: "Mathematical Physics: A Modern Introduction to Its Foundations"
+    author: "Hassani"
+    subject: math_methods
+    phase: 2
+    role: reference
+    status: not_started
+
+  - id: irodov
+    title: "Problems in General Physics"
+    author: "Irodov"
+    subject: general_physics
+    phase: 2
+    role: problems
+    problems_target: 2000
+    status: not_started
+
+  - id: sivukhin
+    title: "General Course of Physics (5 vols)"
+    author: "Sivukhin"
+    subject: general_physics
+    phase: 2
+    role: primary
+    status: not_started
+
+  - id: ll1
+    title: "Mechanics (L1)"
+    author: "Landau-Lifshitz"
+    subject: mechanics
+    phase: 2
+    role: primary
+    chapters_total: 7
+    chapters_done: 0
+    status: not_started
+
+  - id: ll2
+    title: "Classical Theory of Fields (L2)"
+    author: "Landau-Lifshitz"
+    subject: classical_fields
+    phase: 2
+    role: primary
+    chapters_total: 14
+    chapters_done: 0
+    status: not_started
+
+  - id: goldstein
+    title: "Classical Mechanics"
+    author: "Goldstein"
+    subject: mechanics
+    phase: 2
+    role: complement
+    status: not_started
+
+  # === Phase 3: QM ===
+  - id: ll3
+    title: "Quantum Mechanics (L3)"
+    author: "Landau-Lifshitz"
+    subject: quantum_mechanics
+    phase: 3
+    role: primary
+    status: not_started
+
+  - id: shankar
+    title: "Principles of Quantum Mechanics"
+    author: "Shankar"
+    subject: quantum_mechanics
+    phase: 3
+    role: primary
+    status: not_started
+
+  - id: sakurai
+    title: "Modern Quantum Mechanics"
+    author: "Sakurai"
+    subject: quantum_mechanics
+    phase: 3
+    role: complement
+    status: not_started
+
+  - id: galitski
+    title: "Exploring Quantum Mechanics"
+    author: "Galitski et al."
+    subject: quantum_mechanics
+    phase: 3
+    role: problems
+    problems_target: 700
+    status: not_started
+
+  - id: hall-qm
+    title: "Quantum Theory for Mathematicians"
+    author: "Hall"
+    subject: functional_analysis
+    phase: 3
+    role: bridge
+    status: not_started
+
+  - id: kolmogorov-fomin
+    title: "Elements of the Theory of Functions and Functional Analysis"
+    author: "Kolmogorov-Fomin"
+    subject: functional_analysis
+    phase: 3
+    role: primary
+    status: not_started
+
+  - id: georgi
+    title: "Lie Algebras in Particle Physics"
+    author: "Georgi"
+    subject: group_theory
+    phase: 3
+    role: primary
+    status: not_started
+
+  # === Phase 4 ===
+  - id: ll4
+    title: "Quantum Electrodynamics (L4)"
+    author: "Landau-Lifshitz"
+    subject: qed
+    phase: 4
+    role: primary
+    status: not_started
+
+  - id: ll5
+    title: "Statistical Physics part 1 (L5)"
+    author: "Landau-Lifshitz"
+    subject: stat_phys
+    phase: 4
+    role: primary
+    status: not_started
+
+  - id: ll6
+    title: "Fluid Mechanics (L6)"
+    author: "Landau-Lifshitz"
+    subject: fluid_mechanics
+    phase: 4
+    role: primary
+    status: not_started
+
+  - id: peskin-schroeder
+    title: "An Introduction to Quantum Field Theory"
+    author: "Peskin & Schroeder"
+    subject: qft
+    phase: 4
+    role: complement
+    status: not_started
+
+  - id: kardar-particles
+    title: "Statistical Physics of Particles"
+    author: "Kardar"
+    subject: stat_phys
+    phase: 4
+    role: complement
+    status: not_started
+
+  - id: kardar-fields
+    title: "Statistical Physics of Fields"
+    author: "Kardar"
+    subject: stat_phys
+    phase: 4
+    role: complement
+    status: not_started
+
+  - id: zinn-justin
+    title: "Quantum Field Theory and Critical Phenomena"
+    author: "Zinn-Justin"
+    subject: qft
+    phase: 4
+    role: bridge
+    status: not_started
+
+  - id: bender-orszag
+    title: "Advanced Mathematical Methods for Scientists and Engineers"
+    author: "Bender & Orszag"
+    subject: asymptotics
+    phase: 4
+    role: primary
+    status: not_started
+
+  - id: shiryaev
+    title: "Probability"
+    author: "Shiryaev"
+    subject: probability
+    phase: 4
+    role: primary
+    status: not_started
+
+  # === Phase 5 ===
+  - id: ll7
+    title: "Theory of Elasticity (L7)"
+    author: "Landau-Lifshitz"
+    subject: elasticity
+    phase: 5
+    role: primary
+    status: not_started
+
+  - id: ll8
+    title: "Electrodynamics of Continuous Media (L8)"
+    author: "Landau-Lifshitz"
+    subject: continuous_em
+    phase: 5
+    role: primary
+    status: not_started
+
+  - id: ll9
+    title: "Statistical Physics part 2 (L9)"
+    author: "Landau-Lifshitz"
+    subject: stat_phys
+    phase: 5
+    role: primary
+    status: not_started
+
+  - id: ll10
+    title: "Physical Kinetics (L10)"
+    author: "Landau-Lifshitz"
+    subject: kinetics
+    phase: 5
+    role: primary
+    status: not_started
+
+  - id: hatcher
+    title: "Algebraic Topology"
+    author: "Hatcher"
+    subject: algebraic_topology
+    phase: 5
+    role: optional
+    status: not_started
+
+  # === Phase 6: Modern QFT/GR/EFT/CMT ===
+  - id: tong-qft
+    title: "Lectures on Quantum Field Theory"
+    author: "Tong"
+    subject: qft
+    phase: 6
+    role: entry
+    status: not_started
+
+  - id: schwartz
+    title: "Quantum Field Theory and the Standard Model"
+    author: "Schwartz"
+    subject: qft
+    phase: 6
+    role: primary
+    status: not_started
+
+  - id: srednicki
+    title: "Quantum Field Theory"
+    author: "Srednicki"
+    subject: qft
+    phase: 6
+    role: alternative
+    status: not_started
+
+  - id: carroll-gr
+    title: "Spacetime and Geometry"
+    author: "Carroll"
+    subject: gr
+    phase: 6
+    role: primary
+    status: not_started
+
+  - id: wald
+    title: "General Relativity"
+    author: "Wald"
+    subject: gr
+    phase: 6
+    role: depth
+    status: not_started
+
+  - id: altland-simons
+    title: "Condensed Matter Field Theory"
+    author: "Altland & Simons"
+    subject: condensed_matter
+    phase: 6
+    role: primary
+    status: not_started
+
+  - id: faddeev-slavnov
+    title: "Gauge Fields: Introduction to Quantum Theory"
+    author: "Faddeev & Slavnov"
+    subject: qft
+    phase: 6
+    role: soviet_supplement
+    status: not_started
