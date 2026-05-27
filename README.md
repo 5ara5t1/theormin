@@ -6,7 +6,7 @@ Curriculum generated with Claude Opus 4.7.
 
 The curriculum is a work in progress and shall be adjusted and adapted as time goes on. Let's see where this goes :) .
 
-<!-- BEGIN auto:headline -->**Phase 1 · Week 1 · 0 / 9,000 problems · 0 hrs logged · started 2026-05-26**<!-- END auto:headline -->
+<!-- BEGIN auto:headline -->**Phase 1 · Week 1 · 0 / 9,000 problems · 1 hrs logged · started 2026-05-26**<!-- END auto:headline -->
 
 ## Where I am
 
