@@ -25,13 +25,13 @@ Aim for reading-level breadth across the nine domains, then research-level in wh
 
 Five phases, math and physics running partially in parallel rather than sequentially. Each phase is 12–24 months at serious part-time effort. Total ~6–12 years for the baseline depending on time available.
 
-| Phase | Math | Physics |
-|-------|------|---------|
-| 1 | Analysis, linear algebra, ODE, complex analysis, calc of variations | (general physics review with Irodov) |
-| 2 | PDE, tensor calc + intro diff geom, math methods reference | Mechanics (L1), Classical Fields (L2) |
-| 3 | Functional analysis (physics-flavored), group theory + Lie algebras | QM (L3) |
-| 4 | Probability, asymptotics, numerical methods | QED (L4), Stat Phys 1 (L5), Fluid (L6) |
-| 5 | Algebraic topology (optional), gap-filling | Elasticity (L7), Cont. media E&M (L8), Stat Phys 2 (L9), Kinetics (L10) |
+| Phase | Math                                                                | Physics                                                                 |
+| ----- | ------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 1     | Analysis, linear algebra, ODE, complex analysis, calc of variations | (general physics review with Irodov)                                    |
+| 2     | PDE, tensor calc + intro diff geom, math methods reference          | Mechanics (L1), Classical Fields (L2)                                   |
+| 3     | Functional analysis (physics-flavored), group theory + Lie algebras | QM (L3)                                                                 |
+| 4     | Probability, asymptotics, numerical methods                         | QED (L4), Stat Phys 1 (L5), Fluid (L6)                                  |
+| 5     | Algebraic topology (optional), gap-filling                          | Elasticity (L7), Cont. media E&M (L8), Stat Phys 2 (L9), Kinetics (L10) |
 
 ---
 
