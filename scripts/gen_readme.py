@@ -233,6 +233,36 @@ def section_subjects(cfg, problems) -> str:
     return "\n".join(lines)
 
 
+def section_daily_log(sessions: list[dict], today: dt.date, limit: int = 10) -> str:
+    """Render the most recent `limit` calendar days with sessions, grouped by date.
+
+    Days with no sessions are skipped. The activity heatmap is the place to see
+    silent gaps — this section is the chronological diary of what got worked on.
+    """
+    by_date = defaultdict(list)
+    for s in sessions:
+        try:
+            d = dt.date.fromisoformat(s["date"])
+        except (ValueError, KeyError, TypeError):
+            continue
+        by_date[d].append(s)
+    if not by_date:
+        return "_No sessions logged yet. Add rows to `## Sessions` in `vault/01-weeks/week-XX.md`._"
+    dates = sorted(by_date.keys(), reverse=True)[:limit]
+    lines = []
+    for d in dates:
+        day_sessions = by_date[d]
+        total = sum(float(s.get("hours") or 0) for s in day_sessions)
+        lines.append(f"**{d.strftime('%a')} {d.isoformat()} — {total:g}h**")
+        for s in day_sessions:
+            subj = s.get("subject") or "—"
+            act = s.get("activity") or "—"
+            hrs = s.get("hours") or "0"
+            lines.append(f"- {hrs}h *{subj}* — {act}")
+        lines.append("")
+    return "\n".join(lines).strip()
+
+
 def section_recent(books, problems, theorems) -> str:
     items = []
     for t in theorems[-5:][::-1]:
@@ -351,6 +381,7 @@ def main() -> int:
         "phases": section_phases(cfg, books),
         "checkpoints": section_checkpoints(cfg, books, problems),
         "subjects": section_subjects(cfg, problems),
+        "daily_log": section_daily_log(sessions, today),
         "recent": section_recent(books, problems, theorems),
         "shelf": section_shelf(books),
         "timestamp": today.isoformat(),

@@ -105,6 +105,14 @@ QED / QFT                   0 / 700   ░░░░░░░░░░░░░░
 ![weekly hours & problems](images/sparklines.svg)
 <!-- END auto:sparklines -->
 
+## Daily log
+
+<!-- BEGIN auto:daily_log -->
+**Tue 2026-05-26 — 0.8h**
+- 0.5h *meta* — Repo + vault infrastructure setup
+- 0.3h *real_analysis* — Tao Analysis I Ch. 1 read
+<!-- END auto:daily_log -->
+
 ## Recent activity
 
 <!-- BEGIN auto:recent -->_Nothing logged yet. Activity will appear here after Week 1 entries land._<!-- END auto:recent -->
