@@ -51,7 +51,7 @@ Budget: 30 hours. Phase 1, real analysis and linear algebra only.
 
 ## Reading completed
 
-- [ ] Tao Analysis I Ch. 1
+- [x] Tao Analysis I Ch. 1
 - [ ] Tao Analysis I Ch. 2 §2.1–2.3
 - [ ] Zorich vol 1 Ch. 1 §1–3
 - [ ] Strang Ch. 1–2
@@ -59,7 +59,7 @@ Budget: 30 hours. Phase 1, real analysis and linear algebra only.
 
 ## Chapter summaries written
 
-- [ ] [[ch01-intro]] — Tao Analysis I, Ch. 1 (frontmatter logged, body pending)
+- [x] [[ch01-intro]] — Tao Analysis I, Ch. 1
 - [ ] Tao Analysis I, Ch. 2
 
 ## Theorems reproved
