@@ -2,7 +2,9 @@
 
 A self-study traversal of [Landau's theoretical minimum](vault/00-meta/curriculum.md) — nine domains of classical and quantum theoretical physics, the foundation of the Soviet theoretical-physics tradition, taken seriously by one person in 2026.
 
-Public log, public mistakes, public progress.
+Curriculum generated with Claude Opus 4.7.
+
+The curriculum is a work in progress and shall be adjusted and adapted as time goes on. Let's see where this goes :) .
 
 <!-- BEGIN auto:headline -->**Phase 1 · Week 1 · 0 / 9,000 problems · 0 hrs logged · started 2026-05-26**<!-- END auto:headline -->
 
