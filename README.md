@@ -108,6 +108,9 @@ QED / QFT                   0 / 700   ░░░░░░░░░░░░░░
 ## Daily log
 
 <!-- BEGIN auto:daily_log -->
+**Wed 2026-05-27 — 0h**
+- 0h *sick* — Strep throat — no work, going to sleep
+
 **Tue 2026-05-26 — 0.8h**
 - 0.5h *meta* — Repo + vault infrastructure setup
 - 0.3h *real_analysis* — Tao Analysis I Ch. 1 read
