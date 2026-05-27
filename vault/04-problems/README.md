@@ -1,14 +1,14 @@
 # Problems
 
-One note per worked problem, with frontmatter so it gets pulled into the running count.
+One note per worked problem. Frontmatter feeds the running count.
 
 ## Convention
 
 - Subfolder per book: `demidovich/`, `irodov/`, `galitski/`, `tao/`, `strang/`, etc.
-- Filename: book-id + reference: `demidovich/d-0001.md`, `tao/t-2-2-3.md`, `irodov/i-1-001.md`.
-- Use the template at [`../templates/problem.md`](../templates/problem.md) — Templater can drop it in for you.
+- Filename: book-id + reference (`demidovich/d-0001.md`, `tao/t-2-2-3.md`).
+- Use the template at [`../templates/problem.md`](../templates/problem.md).
 
-## Frontmatter spec
+## Frontmatter
 
 ```yaml
 ---
@@ -26,16 +26,17 @@ tags: [phase-1, analysis, induction]
 ---
 ```
 
-## Body convention
+## Body
 
-- **Statement** (paraphrased — copyright)
-- **Approach** (one paragraph, the strategy you used)
-- **Solution** (the math, terse but complete)
-- **What was hard** (one sentence)
-- **What this is connected to** (wikilinks to chapter summaries, related problems, theorems used)
+- Statement (paraphrased)
+- Approach
+- Solution
+- What was hard
+- Connections (wikilinks to chapter summaries, related problems, theorems used)
 
-Status meaning:
-- **solved** — got the right answer, full understanding
-- **partial** — got something but missed the cleanest path
-- **stuck** — couldn't solve; come back later
-- **revisit** — solved but flagged for second pass (felt fragile)
+## Status values
+
+- `solved` — correct answer, understood
+- `partial` — got something, missed the cleanest path
+- `stuck` — couldn't solve, come back
+- `revisit` — solved but flagged for a second pass

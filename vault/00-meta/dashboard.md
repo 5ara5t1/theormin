@@ -5,7 +5,7 @@ description: Internal Obsidian dashboard — live Dataview queries over the vaul
 
 # Dashboard
 
-This is the internal view. For the polished public dashboard see [README.md](../../README.md) at the repo root.
+Internal view. The public-facing dashboard is [README.md](../../README.md) at the repo root.
 
 > [!note] Dataview required
 > The queries below use the [Dataview](https://github.com/blacksmithgu/obsidian-dataview) community plugin. Install it from Settings → Community plugins → Browse → "Dataview".

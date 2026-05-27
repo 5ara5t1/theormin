@@ -1,13 +1,13 @@
-# The Nine Checkpoints
+# The nine checkpoints
 
-Landau's theoretical minimum was nine oral exams. These are the nine self-assessment checkpoints corresponding to each. See [the curriculum](../00-meta/curriculum.md) — Verification protocol — for the standard.
+Self-assessment exams corresponding to Landau's nine oral exams. See the verification protocol in [the curriculum](../00-meta/curriculum.md).
 
-Each checkpoint has its own file. When you sit a checkpoint, log it there: date, the three reprove-from-memory problems chosen and how they went, the five unseen problems and how they went, and the overall pass/fail call.
+One file per checkpoint. Log each attempt: date, the three theorems chosen, the five problems chosen, results.
 
-A checkpoint is **passed** when:
+A checkpoint passes when all three conditions are met:
 
-1. Three load-bearing theorems reproduced from a blank page in ≤30 minutes each.
-2. Five non-trivial problems solved unseen in four hours total.
-3. (Ideally) An oral component with a study partner.
+1. Three theorems reproduced from a blank page in ≤30 minutes each.
+2. Five unseen problems solved in four hours total.
+3. Oral component with a study partner, if possible.
 
-Failing any one of the three means the block isn't done. Sit it again later.
+If any one fails, the block isn't done.

@@ -1,15 +1,15 @@
 # Derivations
 
-Scanned handwritten derivations + their transcriptions. The point of keeping these is twofold: (1) you'll forget how you reasoned three months from now and want to look back, (2) the public record of "here's what an actual cold-start self-study looks like at the working-paper level" has value.
+Scanned handwritten derivations and their transcriptions.
 
 ## Convention
 
 - Subfolder per month: `2026-05/`, `2026-06/`, etc.
-- Filename: `YYYY-MM-DD-short-slug.{md,pdf,png}`
-- The `.md` is the index/transcription; the `.pdf` or `.png` is the scan.
-- One topic per file. If a scan covers multiple derivations, split them.
+- Filename: `YYYY-MM-DD-short-slug.{md,pdf,png}`.
+- The `.md` is the index and transcription; the `.pdf` or `.png` is the scan.
+- One topic per file.
 
-## Frontmatter spec
+## Frontmatter
 
 ```yaml
 ---
@@ -26,17 +26,16 @@ tags: [phase-1, analysis]
 
 ## What to scan
 
-- Worked problems whose derivation is long enough to be worth preserving
-- Hand-worked proofs (especially the reprove-from-memory ones)
-- Computations where the path matters (not just the answer)
-- Anything you'd want to show a future self / future study partner
+- Worked problems with long derivations
+- Reprove-from-memory proofs
+- Computations where the path matters
 
 ## What not to scan
 
 - Trivial arithmetic
-- Tao Ch. 2 sketches that take 4 lines
-- Anything where the typed version is just as good
+- Short sketches (4 lines or less)
+- Anything that types up just as cleanly
 
-## Recommended scanner app
+## Scanner apps
 
-Adobe Scan, Genius Scan, or Apple Notes' built-in document scanner all produce clean PDFs from phone photos. Save into the `vault/05-derivations/YYYY-MM/` folder, then write the index `.md` next to it.
+Adobe Scan, Genius Scan, or the Apple Notes scanner all produce clean PDFs from phone photos. Save into `vault/05-derivations/YYYY-MM/`, then write the index `.md` next to it.

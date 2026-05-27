@@ -1,11 +1,12 @@
-# Week plans and reflections
+# Week plans and session logs
 
-One file per week as the plan, written at the start of the week. Add the reflection section at the end of the week (or use the weekly-reflection template separately).
+One file per week as the plan, written at the start of the week. Daily sessions log as separate notes using the `session` template.
 
 ## Convention
 
-- `week-01.md`, `week-02.md`, etc.
-- Daily sessions can be logged as separate notes with `type: session` frontmatter — see `vault/templates/session.md`.
+- `week-01.md`, `week-02.md`, etc. for plans.
+- `YYYY-MM-DD-<short-slug>.md` for daily sessions.
+- Weekly reflection at end of week using the `weekly-reflection` template.
 
 ## Current
 
