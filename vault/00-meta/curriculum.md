@@ -419,6 +419,8 @@ The Soviet curriculum produced great physicists because of three conditions: (1)
 
 The Soviet-vs-Western framing is a false binary in 2026. The Soviet tradition's contribution was a methodology — depth, problem volume, derivation discipline, geometric intuition, refusal to skip — and a set of texts that embody that methodology. The Western tradition contributes texts that are clearer, more modern, and often free. The synthesis is to use Western texts for first contact and modern frameworks (Tong, Schwartz, Hall, Altland-Simons, Hatcher) and Soviet texts where they remain uniquely deep (Landau-Lifshitz, Faddeev-Slavnov, Vasiliev, Polyakov, Zorich, Demidovich) — and to apply Soviet methodology to every text on your shelf regardless of where it was written. The methodology is what produces physicists. The book selection just optimizes the input.
 
-The honest target is reading-level competence across the nine theormin domains plus research-level depth in your chosen subfield. That's a serious accomplishment — most working Western physicists don't have the breadth, and most working Western mathematicians don't have the physics. It's also achievable through disciplined self-study with the books listed.
+Curriculum scoped and generated with Claude Opus 4.7. 
 
-The bottleneck is discipline and time, not access.
+
+
+
