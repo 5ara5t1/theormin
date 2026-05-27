@@ -104,21 +104,21 @@ QED / QFT                   0 / 600   ░░░░░░░░░░░░░░
 
 ## How this repo works
 
-- **`vault/`** is an [Obsidian](https://obsidian.md) vault. Clone, open `vault/` in Obsidian, install the recommended plugins (Dataview, Templater), and you're set up. Notes use YAML frontmatter as the structured data source.
-- **`data/`** holds machine-readable progress: `problems.csv`, `sessions.csv`, `books.yaml`, `theorems.csv`. These drive the README dashboards.
-- **`scripts/`** has the Python that regenerates this README and the chart SVGs from `data/`. Run `python scripts/gen_readme.py && python scripts/gen_charts.py`.
-- **`.github/workflows/update-dashboard.yml`** runs the scripts on push and on a weekly cron.
-- **`images/`** holds the generated charts.
+- **`vault/`** — Obsidian vault. Open `vault/` (not the repo root) in Obsidian. One file per week in `01-weeks/` holds the plan, sessions table, problems table, and reflection. Chapter summaries live in `02-summaries/`, theorem reproofs in `03-theorems/`, end-of-week PDF scans in `05-derivations/`. See [`vault/README.md`](vault/README.md) for the convention.
+- **`data/`** — machine-readable progress: `problems.csv`, `sessions.csv`, `theorems.csv`, plus `books.yaml` and `config.yaml`. Regenerated from the vault on every CI run.
+- **`scripts/`** — Python that walks the vault and rebuilds the dashboard. `extract_from_vault.py` parses the weekly tables, `gen_charts.py` renders the SVGs, `gen_readme.py` updates this file's auto-sections. Run all three via `./scripts/refresh.sh`.
+- **`.github/workflows/update-dashboard.yml`** — runs the scripts on push to main and weekly.
+- **`images/`** — generated charts.
+
+## Workflow
+
+Day-to-day: read book, take notes / work problems on paper. Open the current week's file in `vault/01-weeks/` and add a row to the `## Sessions` table (date, hours, subject, activity) and to `## Problems worked` (date, book, ref, subject, minutes, status). Write a chapter summary in `vault/02-summaries/<book>/` when a chapter is done.
+
+End of week: reprove a theorem from memory and write it up in `vault/03-theorems/`. Scan paper to PDF, drop into `vault/05-derivations/week-XX/` with a short `index.md` listing what's inside. Fill in the `## Reflection` at the bottom of the week file. `git push` and the dashboard regenerates.
 
 ## The curriculum
 
-The full plan, with phase-by-phase book lists, problem targets, and verification protocols: [`vault/00-meta/curriculum.md`](vault/00-meta/curriculum.md).
-
-The honest target is reading-level competence across the nine domains plus research-level depth in one chosen subfield, in roughly 13–18 years at ~30 hrs/week including modern QFT/GR/EFT/CMT (Phase 6). Not a sprint.
-
-## Why public
-
-Two reasons. First, accountability: a public log makes the work harder to abandon. Second, signal to the rare person doing or considering the same thing — there are extremely few public logs of serious adult self-study at this depth, and the genre needs more honest examples.
+Full plan with phase-by-phase book lists and problem targets: [`vault/00-meta/curriculum.md`](vault/00-meta/curriculum.md). The target is reading-level competence across the nine domains plus research-level depth in one chosen subfield. Roughly 13–18 years at ~30 hrs/week including Phase 6 (modern QFT/GR/EFT/CMT).
 
 ## License
 

@@ -1,47 +1,29 @@
 ---
 title: Problem log
-description: Live list of every problem worked, pulled from frontmatter across the vault.
+description: Pointer to where the problem log lives.
 ---
 
 # Problem log
 
-Every problem with `type: problem` frontmatter shows up here.
+Problems are recorded in the `## Problems worked` table inside each week's file in [`01-weeks/`](../01-weeks/). The current week is [[week-01]].
+
+The aggregate count and per-subject breakdown live on the public dashboard ([README.md](../../README.md)) and are regenerated each push from `data/problems.csv` (which `scripts/extract_from_vault.py` builds by parsing the weekly tables).
+
+This page is intentionally short. The data has one home: the week file. Dataview can't query arbitrary markdown tables, so the per-problem view is the week file itself.
+
+## Notable problem write-ups
+
+For the rare problems that warrant a dedicated note (technique-introducing, got stuck, want to remember), see [`04-problems/`](../04-problems/):
 
 ```dataview
 TABLE WITHOUT ID
-  date as Date,
-  file.link as Note,
+  file.link as Problem,
   book as Book,
-  chapter as Ch,
   problem_ref as Ref,
   subject as Subject,
-  minutes as Min,
+  date as Date,
   status as Status
-FROM ""
+FROM "04-problems"
 WHERE type = "problem"
-SORT date DESC, problem_ref DESC
-```
-
-## Running totals
-
-```dataview
-TABLE WITHOUT ID
-  length(rows) as "Problems",
-  sum(rows.minutes) as "Total min",
-  round(sum(rows.minutes) / length(rows), 1) as "Avg min/problem"
-FROM ""
-WHERE type = "problem"
-GROUP BY true
-```
-
-## By book
-
-```dataview
-TABLE WITHOUT ID
-  book as Book,
-  length(rows) as Problems
-FROM ""
-WHERE type = "problem"
-GROUP BY book
-SORT length(rows) DESC
+SORT date DESC
 ```

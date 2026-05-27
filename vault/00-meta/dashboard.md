@@ -1,90 +1,19 @@
 ---
 title: Dashboard
-description: Internal Obsidian dashboard — live Dataview queries over the vault. The public-facing dashboard is README.md at repo root.
+description: Internal Obsidian dashboard. The public dashboard is README.md at the repo root.
 ---
 
 # Dashboard
 
-Internal view. The public-facing dashboard is [README.md](../../README.md) at the repo root.
+The public dashboard is [README.md](../../README.md) at the repo root. It's regenerated from the vault on every push.
 
-> [!note] Dataview required
-> The queries below use the [Dataview](https://github.com/blacksmithgu/obsidian-dataview) community plugin. Install it from Settings → Community plugins → Browse → "Dataview".
+For the live view inside Obsidian, the canonical place to look is **this week's file** in [01-weeks/](../01-weeks/). The Sessions and Problems tables there are the day-to-day record.
 
-## Current week plan
+## This week
 
 ![[week-01]]
 
-## Recent sessions
-
-```dataview
-TABLE WITHOUT ID
-  date as Date,
-  subject as Subject,
-  hours as Hours,
-  activity as Activity
-FROM ""
-WHERE type = "session"
-SORT date DESC
-LIMIT 10
-```
-
-## Problems worked, by subject
-
-```dataview
-TABLE WITHOUT ID
-  subject as Subject,
-  length(rows) as Problems,
-  sum(rows.minutes) as "Total minutes"
-FROM ""
-WHERE type = "problem"
-GROUP BY subject
-SORT length(rows) DESC
-```
-
-## Last 7 days
-
-```dataview
-TABLE WITHOUT ID
-  date as Date,
-  problem_ref as Problem,
-  book as Book,
-  status as Status,
-  minutes as Min
-FROM ""
-WHERE type = "problem"
-  AND date >= date(today) - dur(7 days)
-SORT date DESC
-```
-
-## Theorems reproduced from memory
-
-```dataview
-TABLE WITHOUT ID
-  date as Date,
-  theorem as Theorem,
-  result as Result,
-  time_minutes as "Time (min)"
-FROM ""
-WHERE type = "theorem"
-SORT date DESC
-```
-
-## Chapter summaries (recent)
-
-```dataview
-TABLE WITHOUT ID
-  file.link as Note,
-  book as Book,
-  chapter as Ch,
-  date_completed as Completed,
-  hours as Hrs
-FROM "02-summaries"
-WHERE date_completed
-SORT date_completed DESC
-LIMIT 10
-```
-
-## In progress
+## Chapter summaries in progress
 
 ```dataview
 TABLE WITHOUT ID
@@ -96,3 +25,46 @@ FROM "02-summaries"
 WHERE status = "in_progress"
 SORT date_started DESC
 ```
+
+## Chapter summaries completed
+
+```dataview
+TABLE WITHOUT ID
+  file.link as Chapter,
+  book as Book,
+  date_completed as Completed,
+  hours as Hrs
+FROM "02-summaries"
+WHERE status = "completed"
+SORT date_completed DESC
+LIMIT 15
+```
+
+## Theorems reproved
+
+```dataview
+TABLE WITHOUT ID
+  date as Date,
+  theorem as Theorem,
+  result as Result,
+  time_minutes as "Time (min)"
+FROM "03-theorems"
+WHERE type = "theorem"
+SORT date DESC
+```
+
+## Checkpoints
+
+```dataview
+TABLE WITHOUT ID
+  id as "#",
+  domain as Domain,
+  status as Status,
+  attempt_date as "Last attempt"
+FROM "06-checkpoints"
+WHERE type = "checkpoint"
+SORT id ASC
+```
+
+> [!note] Sessions and problems are in week files
+> Sessions and problems are recorded as markdown tables inside each week's file in `01-weeks/`. They aren't surfaced here as Dataview queries — Dataview doesn't parse arbitrary tables. For the live counts, run `./scripts/refresh.sh` at the repo root and look at the README, or just scroll the current week file.
