@@ -2,34 +2,42 @@
 
 start_date: 2026-05-26
 
-# Per-subject problem targets (sum = total problem target for the curriculum)
+# Per-subject problem targets. Sum is the total curriculum target (~8,900).
+# Re-estimated 2026-05-27 from per-book working subsets. See curriculum.md
+# for the phase-level breakdowns.
 problem_targets:
-  real_analysis: 500
-  linear_algebra: 300
-  ode: 400
-  complex_analysis: 200
-  calc_of_variations: 100
-  pde: 200
-  math_methods: 100
-  functional_analysis: 200
-  group_theory: 100
-  asymptotics: 100
-  probability: 100
-  numerical_methods: 100
-  general_physics: 2000
-  mechanics: 400
-  classical_fields: 300
-  quantum_mechanics: 1000
-  qed: 300
-  stat_phys: 400
-  fluid_mechanics: 200
-  elasticity: 150
-  continuous_em: 200
-  kinetics: 150
-  qft: 600
-  gr: 400
-  eft: 200
-  condensed_matter: 300
+  # Phase 1: math foundation (~1,950 total)
+  real_analysis: 1000      # Demidovich 500, Zorich 300, Tao 200
+  linear_algebra: 350      # Strang 150, Shilov 100, Axler 100
+  ode: 400                 # Krasnov 200, HSD 100, Strogatz 50, Arnold 40
+  complex_analysis: 150    # Markushevich 100, Needham 50
+  calc_of_variations: 50   # Gelfand-Fomin
+  # Phase 2 math (~150 total)
+  pde: 100                 # Vladimirov OR Evans
+  math_methods: 50         # Hassani
+  # Phase 3 math (~320 total)
+  functional_analysis: 200 # Hall 100, Kolmogorov-Fomin 100
+  group_theory: 120        # Georgi 60, Kirillov Jr. 60
+  # Phase 4 math (~560 total)
+  asymptotics: 150         # Bender-Orszag
+  probability: 250         # Shiryaev 200, Øksendal 50
+  numerical_methods: 160   # Trefethen-Bau 80, LeVeque 80
+  # Physics
+  general_physics: 2300    # Irodov 2000, Sivukhin 200, Krotov 100
+  mechanics: 250           # Goldstein 150, José-Saletan 50, L1 50
+  classical_fields: 250    # Jackson 200, L2 50
+  quantum_mechanics: 1000  # Galitski 500, Shankar 200, Sakurai 100, Flügge 100, L3 50
+  qed: 50                  # L4 (embedded, sparse)
+  stat_phys: 400           # L5 + L9 + Kardar 200 + Zinn-Justin 50
+  fluid_mechanics: 50      # L6
+  elasticity: 50           # L7
+  continuous_em: 80        # L8
+  kinetics: 100            # L10 + supplements
+  # Phase 6 (~1,400 total)
+  qft: 700                 # Schwartz 300, Radovanović 200, Peskin 100, Srednicki 70, Tong 30
+  gr: 500                  # Carroll 150, LPPT 200, Hartle 100, Wald 50
+  eft: 50                  # lecture notes
+  condensed_matter: 150    # Altland-Simons 100, Coleman 50
 
 # Phase chapter inventories (used for phase progress bars).
 # A chapter is "done" when chapters_done in books.yaml increments past its index.

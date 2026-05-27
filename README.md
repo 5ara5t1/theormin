@@ -6,7 +6,7 @@ Curriculum generated with Claude Opus 4.7.
 
 The curriculum is a work in progress and shall be adjusted and adapted as time goes on. Let's see where this goes :) .
 
-<!-- BEGIN auto:headline -->**Phase 1 · Week 1 · 0 / 9,000 problems · 1 hrs logged · started 2026-05-26**<!-- END auto:headline -->
+<!-- BEGIN auto:headline -->**Phase 1 · Week 1 · 0 / 8,910 problems · 1 hrs logged · started 2026-05-26**<!-- END auto:headline -->
 
 ## Where I am
 
@@ -80,18 +80,18 @@ Phase 6 — Modern QFT + GR + EFT + CMT     ░░░░░░░░░░░░
 
 <!-- BEGIN auto:subjects -->
 ```
-Real analysis               0 / 500   ░░░░░░░░░░░░░░░░░░░░
-Linear algebra              0 / 300   ░░░░░░░░░░░░░░░░░░░░
+Real analysis               0 / 1,000 ░░░░░░░░░░░░░░░░░░░░
+Linear algebra              0 / 350   ░░░░░░░░░░░░░░░░░░░░
 ODE                         0 / 400   ░░░░░░░░░░░░░░░░░░░░
-Complex analysis            0 / 200   ░░░░░░░░░░░░░░░░░░░░
-Calc of variations          0 / 100   ░░░░░░░░░░░░░░░░░░░░
-PDE / math methods          0 / 200   ░░░░░░░░░░░░░░░░░░░░
+Complex analysis            0 / 150   ░░░░░░░░░░░░░░░░░░░░
+Calc of variations          0 / 50    ░░░░░░░░░░░░░░░░░░░░
+PDE / math methods          0 / 100   ░░░░░░░░░░░░░░░░░░░░
 Functional analysis         0 / 200   ░░░░░░░░░░░░░░░░░░░░
-General physics             0 / 2,000 ░░░░░░░░░░░░░░░░░░░░
-Mechanics (L1)              0 / 400   ░░░░░░░░░░░░░░░░░░░░
-Classical fields (L2)       0 / 300   ░░░░░░░░░░░░░░░░░░░░
+General physics             0 / 2,300 ░░░░░░░░░░░░░░░░░░░░
+Mechanics (L1)              0 / 250   ░░░░░░░░░░░░░░░░░░░░
+Classical fields (L2)       0 / 250   ░░░░░░░░░░░░░░░░░░░░
 Quantum mechanics (L3)      0 / 1,000 ░░░░░░░░░░░░░░░░░░░░
-QED / QFT                   0 / 600   ░░░░░░░░░░░░░░░░░░░░
+QED / QFT                   0 / 700   ░░░░░░░░░░░░░░░░░░░░
 ```
 <!-- END auto:subjects -->
 

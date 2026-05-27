@@ -44,8 +44,8 @@ Five phases for the baseline, plus Phase 6 for modern theoretical physics. Math 
 ### Linear algebra
 
 - Strang, *Introduction to Linear Algebra* — first pass, geometric and computational. Pair with MIT 18.06 video lectures.
-- Shilov, *Linear Algebra* — Soviet, determinant-first approach.
-- Axler, *Linear Algebra Done Right* — modern axiomatic.
+- Shilov, *Linear Algebra* — classical Soviet sequence: systems of equations → determinants via the permutation/Leibniz formula → vector spaces and linear maps. Computational depth via determinants.
+- Axler, *Linear Algebra Done Right* — modern axiomatic. Deliberately defers determinants to the last chapter; the contrast with Shilov is pedagogical.
 - Halmos, *Finite-Dimensional Vector Spaces* — short, rigorous.
 
 ### Ordinary differential equations
@@ -65,7 +65,13 @@ Five phases for the baseline, plus Phase 6 for modern theoretical physics. Math 
 
 - Gelfand & Fomin, *Calculus of Variations*.
 
-Phase 1 problem target: ~1,500.
+Phase 1 problem target: **~1,950**
+
+- Real analysis ~1,000 (Demidovich 500, Zorich 300, Tao 200)
+- Linear algebra ~350 (Strang 150, Shilov 100, Axler 100)
+- ODE ~400 (Krasnov 200, HSD 100, Strogatz 50, Arnold 40)
+- Complex analysis ~150 (Markushevich 100, Needham 50)
+- Calc of variations ~50 (Gelfand-Fomin)
 
 ---
 
@@ -87,10 +93,16 @@ Phase 1 problem target: ~1,500.
 
 - Mechanics (L1) — Landau-Lifshitz vol 1. Prereqs: calc of variations, ODE.
 - Classical Theory of Fields (L2) — Landau-Lifshitz vol 2. Prereqs: tensor calc, SR.
-- Companion: Goldstein, *Classical Mechanics*.
-- Companion for L1: José & Saletan, *Classical Dynamics: A Contemporary Approach*.
+- Companion for L1: Goldstein, *Classical Mechanics*.
+- Companion for L1 (modern geometric): José & Saletan, *Classical Dynamics: A Contemporary Approach*.
+- Companion for L2's electrodynamics: Jackson, *Classical Electrodynamics* — Western graduate canonical. Dense, problem-heavy.
+- Gentler alternative E&M reference: Griffiths, *Introduction to Electrodynamics* — undergraduate-level if Jackson is too compressed early.
 
-Phase 2 problem target: ~2,000. Irodov makes up most of this; L1 and L2 embedded problems add several hundred more.
+Phase 2 problem target: **~3,000**
+
+- Math ~150 (PDE 100, math methods 50)
+- General physics ~2,300 (Irodov 2,000, Sivukhin 200, Krotov 100)
+- Theormin physics ~500 (Jackson 200, Goldstein 150, José-Saletan 50, L1 50, L2 50)
 
 ---
 
@@ -104,7 +116,7 @@ This phase is commonly underestimated. L3 + Sakurai + Shankar + Galitski + funct
 - Kolmogorov-Fomin, *Elements of the Theory of Functions and Functional Analysis* — Soviet first pass.
 - Reed-Simon vol 1 — reference for specific theorems.
 - Georgi, *Lie Algebras in Particle Physics* — first pass on group theory.
-- Kirillov, *An Introduction to Lie Groups and Lie Algebras* — mathematical depth.
+- Kirillov **Jr.**, *An Introduction to Lie Groups and Lie Algebras* — mathematical depth. (This is A. Kirillov Jr. at Stony Brook, not his father A. A. Kirillov of orbit-method fame, whose *Elements of the Theory of Representations* is a different and harder book.)
 - Vinberg, *A Course in Algebra* — for abstract algebra gaps.
 
 ### Physics
@@ -115,7 +127,10 @@ This phase is commonly underestimated. L3 + Sakurai + Shankar + Galitski + funct
 - Galitski, Karnakov, Kogan, Galitski, *Exploring Quantum Mechanics* — ~700 problem target.
 - Flügge, *Practical Quantum Mechanics* — solved-problems companion.
 
-Phase 3 problem target: ~1,000.
+Phase 3 problem target: **~1,300**
+
+- Math ~320 (Hall 100, Kolmogorov-Fomin 100, group theory + Lie 120)
+- Physics ~950 (Galitski 500, Shankar 200, Sakurai 100, Flügge 100, L3 50)
 
 ---
 
@@ -137,7 +152,12 @@ Phase 3 problem target: ~1,000.
 - Kardar, *Statistical Physics of Particles* and *of Fields* — modern stat mech (MIT lectures freely available).
 - Zinn-Justin, *Quantum Field Theory and Critical Phenomena* — bridge between stat mech and QFT.
 
-Phase 4 problem target: ~1,500.
+Phase 4 problem target: **~850**
+
+- Math ~560 (Shiryaev 200, Bender-Orszag 150, Trefethen-Bau 80, LeVeque 80, Øksendal 50)
+- Physics ~280 (Kardar 200, Peskin 100 partial, L5 50, L4 50, Zinn-Justin 50, L6 30 — Peskin's bulk shifts to Phase 6)
+
+Earlier versions overstated Phase 4 by spreading too thin across L4 + L5 + L6, all of which are theory-heavy with sparse embedded problems.
 
 ---
 
@@ -156,7 +176,12 @@ Phase 4 problem target: ~1,500.
 - Algebraic topology (optional, for field theory / condensed matter trajectories): Hatcher, *Algebraic Topology* (free at hatcher.cornell.edu) or Fomenko-Fuks-Gutenmacher, *Homotopic Topology*.
 - Category theory (optional, for mathematical physics / TQFT): Riehl, *Category Theory in Context*.
 
-Phase 5 problem target: ~1,500.
+Phase 5 problem target: **~450**
+
+- L7 ~50, L8 ~80, L9 ~80, L10 ~50 (~260 from L-L embedded)
+- Supplementary problems (olympiad continuous-media, Galitski-Kogan-Karnakov *Selected Problems in Physical Kinetics and Hydrodynamics*): ~150
+
+The earlier ~1,500 target was wishful. L7–L10 are short volumes with sparse problem sets; the substance is in working through derivations and physical examples rather than crank-the-handle problems.
 
 ---
 
@@ -307,13 +332,18 @@ Tong → primary QFT text → GR in parallel or after → EFT after QFT → CMT 
 
 If only one of the three: QFT. Modern theoretical physics is largely QFT-flavored thinking applied across domains.
 
-Phase 6 problem target: ~2,000.
+Phase 6 problem target: **~1,400**
+
+- QFT ~700 (Schwartz 300, Radovanović 200, Peskin 100, Srednicki 70, Tong 30)
+- GR ~500 (Carroll 150, LPPT 200, Hartle 100, Wald 50)
+- EFT ~50 (lecture notes)
+- CMT ~150 (Altland-Simons 100, Coleman 50)
 
 ---
 
 ## Operational principles
 
-1. **Problem volume.** Target ~7,500 problems for Phases 1–5, ~9,500 with Phase 6. Don't shortcut.
+1. **Problem volume.** Target ~7,600 problems for Phases 1–5 (general physics dominates the count via Irodov's ~2,000), ~9,000 with Phase 6. Don't shortcut.
 
 2. **Math and physics in parallel.** Each L-L volume has specific math prerequisites. Learn them adjacently rather than preemptively.
 

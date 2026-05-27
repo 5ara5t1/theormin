@@ -195,6 +195,26 @@ books:
     subject: mechanics
     phase: 2
     role: complement
+    problems_target: 150
+    status: not_started
+
+  - id: jackson
+    title: "Classical Electrodynamics"
+    author: "Jackson"
+    subject: classical_fields
+    phase: 2
+    role: complement
+    chapters_total: 11
+    chapters_done: 0
+    problems_target: 200
+    status: not_started
+
+  - id: griffiths-em
+    title: "Introduction to Electrodynamics"
+    author: "Griffiths"
+    subject: classical_fields
+    phase: 2
+    role: gentler_alternative
     status: not_started
 
   # === Phase 3: QM ===
