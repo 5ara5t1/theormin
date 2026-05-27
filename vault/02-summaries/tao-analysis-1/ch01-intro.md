@@ -2,13 +2,19 @@
 type: summary
 book: tao-analysis-1
 chapter: 1
-sections: [1.1, 1.2, 1.3]
+sections:
+  - 1.1
+  - 1.2
+  - 1.3
 status: completed
 date_started: 2026-05-26
 date_completed: 2026-05-26
-hours: 0.5
+hours: 1
 problems_worked: 0
-tags: [phase-1, analysis, tao]
+tags:
+  - phase-1
+  - analysis
+  - tao
 ---
 
 # Tao Analysis I — Ch. 1: Introduction
