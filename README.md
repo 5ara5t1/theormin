@@ -14,7 +14,7 @@ The curriculum is a work in progress and shall be adjusted and adapted as time g
 | | |
 |---|---|
 | Active phase | Phase 1 |
-| Current week | Week 1 (2026-05-27) |
+| Current week | Week 1 (2026-05-29) |
 | Books in progress | Tao *Analysis I*, Zorich *Mathematical Analysis vol 1*, Demidovich *Problems in Mathematical Analysis*, Strang *Introduction to Linear Algebra* |
 | Last theorem reproved | — |
 | Last derivation logged | — |
@@ -108,6 +108,9 @@ QED / QFT                   0 / 700   ░░░░░░░░░░░░░░
 ## Daily log
 
 <!-- BEGIN auto:daily_log -->
+**Thu 2026-05-28 — 0h**
+- 0h *sick* — Strep throat day 2 — still resting
+
 **Wed 2026-05-27 — 0h**
 - 0h *sick* — Strep throat — no work, going to sleep
 
@@ -161,4 +164,4 @@ Notes, summaries, derivations: [CC BY 4.0](LICENSE-notes). Code: [MIT](LICENSE-c
 
 ---
 
-_Started 2026-05-26. Last dashboard refresh: <!-- BEGIN auto:timestamp -->2026-05-27<!-- END auto:timestamp -->._
+_Started 2026-05-26. Last dashboard refresh: <!-- BEGIN auto:timestamp -->2026-05-29<!-- END auto:timestamp -->._

@@ -44,6 +44,7 @@ Budget: 30 hours. Phase 1, real analysis and linear algebra only.
 | 2026-05-26 | 0.5 | meta | Repo + vault infrastructure setup |
 | 2026-05-26 | 0.3 | real_analysis | Tao Analysis I Ch. 1 read |
 | 2026-05-27 | 0   | sick | Strep throat — no work, going to sleep |
+| 2026-05-28 | 0   | sick | Strep throat day 2 — still resting |
 
 ## Problems worked
 
